@@ -24,7 +24,7 @@ export class Effect{
             // ctx.fillStyle = "red";
             // ctx.arc(center.x, center.y, 5, 0, Math.PI*2);
             // ctx.fill()
-            const size = locs.length;
+            const size = Math.sqrt(locs.length)*5;
             this.pinwheel.update(ctx, center, size);
         }
         requestAnimationFrame(this.#animate.bind(this));

@@ -20,3 +20,4 @@ navigator.mediaDevices.getUserMedia(
 }else {
     console.error('getUserMedia is not supported in this browser');
   }
+ 
