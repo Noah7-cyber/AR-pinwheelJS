@@ -1,5 +1,6 @@
 import { getLocationWithColor } from "./utils.js";
 import { average } from "./utils.js";
+import { Pinwheel} from "./Pinwheel.js";
 export class Effect{
     constructor(canvas, video){
         this.canvas = canvas;
